@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <head>
+    <style>
+  body {
+    background: linear-gradient(to right, #fcfcfc, #ffffff);
+  }
+</style>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
+</head>
+<body>
+ <header class=" container border border-2 d-flex flex-wrap justify-content-between align-items-center gap-5 gap-sm-5">
+  <div class="logo">
+    <img
+    class="logo border border-3 rounded-circle"
+     src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQSERAQEhIQFhAVERUVExYVEhoXEBoaFxEWFhcVFRcYHCggGBslHRMVJTYtJSsrLi4wFx8zODMsNygtLisBCgoKDg0OGxAQGy8lHyUuNysvKzUyNTUrLi0tMDUuLzAtLTUtLDUuLSstNy01LS42LS0rLTctLTUtLS0tLi0tLf/AABEIAOkA2AMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQMEBgcIAgH/xABAEAACAgECAwQHBQQIBwAAAAAAAQIDEQQSBSExBhNBYSIyUXGBktEHFEJTkSNSYqEVM0Nyc4LBwiQlY6Kx0uH/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIEAwUG/8QAKREBAQACAQIEBQUBAAAAAAAAAAECEQMEQRIhUWEiMTKRsQVxgdHhE//aAAwDAQACEQMRAD8A0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyfjXZGVOh02vjNyhbGPeRaxKDlnDT8Yv9eZjBTj5MeSbxvt9lssbjfMABdUAAAAAAAAAAAAAAAAAAAAAAAAAAAAACX7PcJjdKVt0u70lWJXWPr5VwX4py6L9SIJHiGs/Z16aP9XX6UsdJWS9eb93qryj5srnLZqJjPf6b/pLQ8UpUdvdKuzT1+KqhhbeXj6GX/eNYkn2e4zPR3xvrSeMqcX6s4v1oS96JHXcI010nbpNTTCEubp1E+7shnntUn6M0veZ+LjnBlcZ9N85+/d0yy8cl7sf0+3ct+dnjjr06L39PiSM+GKyDt026Sis2VP+th/Ev34ea5rxXieNVw2FUXu1FU5+EaXv+aeEl/M9dmqnLU1Rjd3Mm/Rnjx8I+zn5nfLLy3FJOyLBlfa3Q6dObjZGGqi/2teyUYSfjKCfqt9fY8mKDDOZzcMsfDdAALqgAAAAAAAAAAAAAAAAAAAAAAANydieB6DW6Gub09XeqLrta9dSS9bybTTMT7Q/ZpqqHKVCV9PVbeVqX8UfF+7/AOEN2M7TT0F/eLMqpYjbDPrLPJr+JeHva8TfXB+K1aqqN1E1KD+Ek/GMl4NHzfV8vVdDzXPH4sMvXt7ez0OLDi5sNXysc021SjJxlGUZLqpJqS96fQ8HQ/bDS6N1d5rKO8gmo741OVsc+O6PpJfyNX8W7J6acXfodSnV/wBTnWv4ZzS3Uv8AxIpeZ6XR/qWPUY7uNn4+7hy9NcLre2EH2LxzK+t0VlMtlkHGXn0a9sWuUl5otz0vmzM0psjr6oWOEJ63Tx9KEuSuglhZx4/6+8x7ide6PfSnp4TeEqa09yS5eklyi1jxLPRaudU421tqcXlP/R+RltV9eqzdQ6qda16cZxTTa/FW2uT93x9pn1eO+34/x034p7sLBLcY4LdUu8niSk25Si8pSb5qT/16ESd5lLNxSzQACUAAAAAAAAAAAAAAAAAAAAAASXA+O36SzvKLHF/iXWEl7JR6MjQRljMprKbiZbLuNz9nPtPouShql3FnRvm6H8esfc/1JvXdmNNqf+I08lVa09t+naw8+E0vRmuS5Pmc+l7wri12mnvotnXLx2v0X/ej0l8Tx+T9JmOXj6fK4307NWPVbmuSb/LJ+2vCb9NHbbCOxy5ShH/h2/3oL+xn7Y9HnkYWzZfCPtMjZF0a+mMoSW2U4RzFr+Ot9V7v0I7tH2JjKP3rh0o20Pm64yzKP9z2ryfNefhq4OfPD4Oeavr2v9KZ8eOXxcd/juwUHqcWm0001yaaw15NHk3s6/4XxSVLa5Srl68Jeq/oyrr9BFxd9Dbq/FH8dfk/IiytpdTKuSnB4f8AJr2NeKK3Hz3Ey9qogvblCzMoLbNLMofhftcPoWRaIoAAAAAAAAAAAAAAAAAAAJns/wBltXrt33XTzsUXiUlhQT9jk8LPkVePdjtboo79TprIV5xv5Sh8XHOPiBAgEpr+zuppop1VtMo6e7HdTbW2WVlYw8rkBFgu+FcMt1NsaKK3ZbLO2KaTeFl9eXRHniOgs09s6LoOFsHtnF4ynjOOXLxAti74dxO6iW+m2dcv4XyfvXRlrFZ5Lr/MyzRfZrxO2CsjpLFFrKU3GMn/AJZPK+JFks1Tak+1Nd6S12mrtf5tf7O/3vbhP/x5HifDdBZzq1c63+7dDp8UQ3FuE3aWx1aiqdVi/DNYyvan0a9xZnP/AJSfTbF/Hb80zdwFL1dXo5L/ABdr/RltLhLX9tpX7r4kpoewPEbq4XV6SyVc4qUJKUMNPo+citL7OOJpNvRW4Sz60P8A2LyX1VtjHbK+7frVyeH6sspZWOuC3BM8A7K6vW5emonOKeHLkq0/Zuk0m/cWQhgTXHeyms0aUtTp7IQzhT5Ov5o5S+JCgAAAAAAAAAAAAAAIADevDp6izs9pK+EWKFy/rtklC1vMu8Sk8Yluw+qysYfg8I4x2t4xRprtFrHd3dsdrndDNiWeajZ4588+RG6DhPENLTVqtNK1KyO5xplmST9VyguuV5PBmnAeManU6PVw4lD9kq3tlOGyb9F5bXlyw8Ln7QNPm5e1XD79XwLg9OnqnZOEK5SUVzS7prL+Jpo2jxntBdpuE8NenslCeyEW1jp3fTmvaBQ+zXsxrNLxLT33aa2FcVPdKSWFmtpZ5mN/aZPdxXXP23f7Ik12M7Zay7WVV3aicq2pZi0sPEW10XtMc7cz3cQ1cvbb/tQGX/Y/oaa4avil8VJaaLdaazhxg5ynFP8AFhJL2ZITiv2m8SuudsdVbVHOYV1PbXFeCa/H75ZL37N+JQlTq+H2Swr4y2+17q3GSj5pc/gYzxDsxqarHX3Nk1nEZQi5QfnldPiBs3S8U/pzhN9epUXrdOswsUUm5KO6MvJS2uMkuXjhcjTRsrg3/K+H6iy1pX3LEYZ552uMY+eMtv3GtQN3a3W65cG4YuHu5XKMFPusbtndy658M4MT1vFuP11zstt1sa4xbnJ7cJdG3+pe6ziOqhwzQLSOxWYipd3HL27JdeXTODG9Zr+K21zqs+9SrmsSi6+TXsfIDFDdLt1M+C6KHCrNkoxj3qrmoWvk1NKTxiW7m+ab/kaWZk+l4dr9JCF1ErEpxUmqnlrK5bo+PLAF9xrtVxWvTWaLVu3ZZhOVsP2u3OXBWfiTx45ZhTNnaPit+o0Grjr4eiq5bJShtm8QbT2+1PGHj9TWIAAAAAAAAAAAAAAAAEnwvj+o0621WyUM52vnD9H0+B74p2k1Oojsssezxilti/fjqRIAF9quLW2VV0TnmuvGyOEsYWEWJIU8Ra089Pl4lOL6Lp48+vVL9CKLfQ6ydM1bW8TjnDxnyfU86vVStnKybzOTzJ+19CUv4lS56eSq5VLa01FqUUvRk10bTbfPOeWTzdr65WTcnJqen7tzcU3uyvSS8OhHivonSIjLDTTw08pp4ax45Jyntfqox297nzlFOX6lno9dCHcein3d7m8xXNejhNePq9GXVPFq1bGxQ2JUuGElyk/FeXs8RbfQ0jNdrrLpb7ZynLzfJe5dEW5c1XpXKx+ku83PK6rdnoX1fE4K2M1DalVKHLnhysnLdn/MibaPmm7S6mEIwjbiMViK2rp+hUfavVdO9/7V9CnpuJxirk1u3zby0mvVkluXVrLXIoXa1OiupZzHqscn6Tef5jd9DSwZIcP41fSttdjUf3Xzj8E+nwI8EoSPEeN33rbZY3HrtXKPxx1I4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZO2vulf5dfyr6D7pX+XX8q+gHEuRk7a+6V/l1/KvoPulf5dfyr6AcS5GTtr7pX+XX8q+h5elr/cr+VfQDifIydo6V02OxRhD0LHCWYJc0k3jy9JHzU2aevO9VRxXOx5ivVhjdLp4ZQHF+Rk7XjRU8NQr5rPqr6Hi+NMIynKNShGLlJ7VhJLLfTyA4ryMnbC09b6Qr6Z9VfQoQdLslUoQ3RhGb9BYxJySw/b6DA4uyMnbD01f7lfyofdq/wByv5UBxPkZO2Vpa/y6/lX0LO/U6aFsaZKtWSxhd3lek2o7pKO2OXGSWWs4eMgcZZGTsd8U0ezvU6pQ7yVacK3PMopuSioRblhJttckk2VPvulzOMe7nKFcbJRrr7yeyXqtRhFt58EuYHGmRk7Hq4npHDfiMY99Gn9pRKuXeScVGG2cFLL3x8PHyZ4lxfSKUoSjKMorOJ6S2LfpqHobq1vblKKSjlvPIDjvIydkQ4lpG64p1t2JbcVvbzbSUpbcQk3GSSlhtxa6or8Ptovi5V1+injMqJQT5ZzHfFbl5rKA4wyMnbX3Sv8ALr+VfQfdK/y6/lX0A4lyMnbX3Sv8uv5V9B90r/Lr+VfQDiXIO2vulf5dfyr6ACsAAAAAEV2j4e76e7jGuUtylHvJNQTXSTxGW7Hsaw/LqSp5AxTWdlZydk06VZOdrcsNOSlVWoRlhdN9aeOePDJT1PZWy3vZWR0u+2Gri3zk4d+obHBuGZbXF/u+tlewzAIDELOy05SnLbTFyqcY7bZqNb7l193GKglKGW3l46+q3zKut7Lbu+hXDTQrnpJU81l7nDEfQ2ehFSbllPn7M8zKT6gMP1XZa2e9LuKt2WrIOTsh+wVf3eK2xzVlZzldfVT5lzT2fsV1d6jpq9mxdzCUnQ8Ozc/UXpLepReOTWPHJk4QGN8T4FbbO6WKE7aFDe5SdlTUJJwr9FboScufOL69crFm+yUpycpR08U4z21xy663Oyh4rexcmqZ5eFzn0MvYQEXw7hGyp1SeIrUztgq5OKjF3uyEOWOSyk106roeOIaW+eoqahQ9NFxk82yjbuTfpuKqaltXRblz5t9CYPjAxmfA7rIWRmqqpu9zrnVfNyhGcdk0v2cee3oujz4Y53tehtrvTqroVEdP3UG7ZKzKS2uUVXjGYpes+XPyJpADG9V2ZlKFW3UTjZHa5YjB1ubvjbZZiUG1J4eOfsXtK+s4RZOUr063dG+Flabar2VxlGNcpKOVnvLHlJ4bXXBOgDGKuA3LuU5UbYXy1EpJyUlKd1ltlcY4xOD7xxTeGlzxkkOz3Dp0qzfsjGTioVQsnZXBRjhuMppPn7MYWF16kufQAAAAAAAAP//Z" alt="logo image"></div>
+<nav class="d-none d-sm-block">
+  <ul class="nav justify-content-center gap-3">
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">SHOP</a>
+    </li>
+    <li class="nav-item">
+      <input type="search" class="form-control" placeholder="SEARCH ITEMS">
+    </li>
+  </ul>
+</nav>
+
+<div class="">
+   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+    <button>SIGN UP</button>
+    <button>LOG IN</button>
+   </div>
+
+ </header>
+ <!--header end-->
+ <div class=" text-center mt-5 mt-sm-2">
+  <hgroup>
+    <h1>
+  LATEST PRODUCTS
+</h1>
+<h6>EXPLORE OUR LATEST PRODUCTS AND GET THE BEST DEALS HERE AND SALES </h6>
+  </hgroup>
+ </div>
+ <selection>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb2kMtby4sHqyCq_v1_O5vveTMRhe_I7JYlw&s" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTifVgy2WAP-AbV_ape1avuqlpMueAjqTMsw&s" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMa0d1l-_j3dt7pnLOToaSHveN-dbLtRX8Sw&s" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ </selection>
+<!--section end-->
+
+
+
+<h1 style="text-align: center;">Explore our products</h1>
+
+
+
+
+<!--cards-->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSve4cUUBdu4eJNs0mE0QtLxZi5JavjhbAEFg&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ADDIDAS</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+           <button class="btn btn-primary">ADD TO CART</button>
+            
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4i44T-ma2uLIP4BkSGVuU4T7Wmx8bqOl9yg&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SAMBA</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          <button class="btn btn-primary">ADD TO CART</button>
+</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_91c31819b4a696b7cbf5274340a4b90a.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JORDAN</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
+        <button class="btn btn-primary">ADD TO CART</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://file.aiquickdraw.com/imgcompressed/img/compressed_c6b06fbb8126fcfa3d79192143f602fd.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">NIKE AIRFORCE</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
+         <button class="btn btn-primary">ADD TO CART</button>
+    </div>
+  </div>
+</div>
+  
+
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <h2>Links</h2>
+  <ul>
+    <li>
+      <a href="https://www.facebook.com" target="_blank">
+        Facebook <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com" target="_blank">
+        Instagram <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</footer>
+
+
+  </ul>
+</div>
+</body>
+</body>
+</html>.
